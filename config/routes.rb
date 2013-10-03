@@ -1,4 +1,7 @@
 Enterprise6::Application.routes.draw do
+  resources :game_rooms
+
+
   devise_for :users
 
   # The priority is based upon order of creation:
